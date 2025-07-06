@@ -7,11 +7,11 @@ import Hero from "./sections/Hero";
 import ShowcaseSection from "./sections/ShowcaseSection";
 import LogoShowcase from "./sections/LogoShowcase";
 import FeatureCards from "./sections/FeatureCards";
-import NavBar from "./components/NavBar";
+import Navbar from "./components/NavBar";
 
 const App = () => (
   <>
-    <NavBar />
+    <Navbar />
     <Hero />
     <ShowcaseSection />
     <LogoShowcase />
