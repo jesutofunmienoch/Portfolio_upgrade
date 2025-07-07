@@ -5,7 +5,7 @@ import * as THREE from "three";
 
 const TechIconCardExperience = ({ model }) => {
   const scene = useGLTF(model.modelPath);
-
+//ddd
   useEffect(() => {
     if (model.name === "Interactive Developer") {
       scene.scene.traverse((child) => {
