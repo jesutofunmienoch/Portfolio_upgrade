@@ -29,6 +29,7 @@ const AnimatedCounter = () => {
           trigger: "#counter",
           start: "top center",
         },
+        
         // Add the suffix after counting is complete
         onComplete: () => {
           numberElement.textContent = `${item.value}${item.suffix}`;

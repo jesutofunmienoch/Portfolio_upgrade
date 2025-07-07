@@ -10,7 +10,6 @@ const Navbar = () => {
     // create an event listener for when the user scrolls
     const handleScroll = () => {
       // check if the user has scrolled down at least 10px
-      // if so, set the state to true
       const isScrolled = window.scrollY > 10;
       setScrolled(isScrolled);
     };
